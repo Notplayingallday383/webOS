@@ -22,7 +22,7 @@
                     }).then(async () => {
                         const connection = new BareMux.BareMuxConnection("/baremux/worker.js")
                         let transport = localStorage.getItem('transport') || "/epoxy/index.mjs"
-                        await connection.setTransport(transport, [{ wisp: "wss://wisp.mercurywork.shop" }]);
+                        await connection.setTransport(transport, [{ wisp: "wss://wisp.terbiumon.top/wisp/" }]);
                         /*
                         // Feel free to remove this, its just for skids to stop making issues on it
                         if (window.location.origin.includes('.pages.dev')) {
